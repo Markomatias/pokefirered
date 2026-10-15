@@ -1,0 +1,152 @@
+number,species,name,parent,planned_method_or_area,required_progression,choice_dependency,baseline_wild_evidence,implementation,tested
+1,BULBASAUR,BULBASAUR,,Oak starter choice or postgame missing-starter gift,Opening choice or Champion,Starter choice; missing species gift pending,,PENDING: acquisition path not certified,NOT RUN
+2,IVYSAUR,IVYSAUR,BULBASAUR,Evolve BULBASAUR at level 16,Acquire parent; reach level 16,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+3,VENUSAUR,VENUSAUR,IVYSAUR,Evolve IVYSAUR at level 32,Acquire parent; reach level 32,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+4,CHARMANDER,CHARMANDER,,Oak starter choice or postgame missing-starter gift,Opening choice or Champion,Starter choice; missing species gift pending,,PENDING: acquisition path not certified,NOT RUN
+5,CHARMELEON,CHARMELEON,CHARMANDER,Evolve CHARMANDER at level 16,Acquire parent; reach level 16,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+6,CHARIZARD,CHARIZARD,CHARMELEON,Evolve CHARMELEON at level 36,Acquire parent; reach level 36,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+7,SQUIRTLE,SQUIRTLE,,Oak starter choice or postgame missing-starter gift,Opening choice or Champion,Starter choice; missing species gift pending,,PENDING: acquisition path not certified,NOT RUN
+8,WARTORTLE,WARTORTLE,SQUIRTLE,Evolve SQUIRTLE at level 16,Acquire parent; reach level 16,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+9,BLASTOISE,BLASTOISE,WARTORTLE,Evolve WARTORTLE at level 36,Acquire parent; reach level 36,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+10,CATERPIE,CATERPIE,,Viridian Forest grass,Before Brock,None,sViridianForest_FireRed:land_mons;sViridianForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+11,METAPOD,METAPOD,CATERPIE,Evolve CATERPIE at level 7,Acquire parent; reach level 7,Inherits parent acquisition choices,sViridianForest_FireRed:land_mons;sViridianForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+12,BUTTERFREE,BUTTERFREE,METAPOD,Evolve METAPOD at level 10,Acquire parent; reach level 10,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+13,WEEDLE,WEEDLE,,Viridian Forest grass,Before Brock,None,sViridianForest_FireRed:land_mons;sViridianForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+14,KAKUNA,KAKUNA,WEEDLE,Evolve WEEDLE at level 7,Acquire parent; reach level 7,Inherits parent acquisition choices,sViridianForest_FireRed:land_mons;sViridianForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+15,BEEDRILL,BEEDRILL,KAKUNA,Evolve KAKUNA at level 10,Acquire parent; reach level 10,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+16,PIDGEY,PIDGEY,,Route 1 grass,Opening routes,None,sThreeIslandBerryForest_FireRed:land_mons;sThreeIslandBerryForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+17,PIDGEOTTO,PIDGEOTTO,PIDGEY,Evolve PIDGEY at level 18,Acquire parent; reach level 18,Inherits parent acquisition choices,sThreeIslandBerryForest_FireRed:land_mons;sThreeIslandBerryForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+18,PIDGEOT,PIDGEOT,PIDGEOTTO,Evolve PIDGEOTTO at level 36,Acquire parent; reach level 36,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+19,RATTATA,RATTATA,,Route 1 grass,Opening routes,None,sPokemonMansion1F_FireRed:land_mons;sPokemonMansion1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+20,RATICATE,RATICATE,RATTATA,Evolve RATTATA at level 20,Acquire parent; reach level 20,Inherits parent acquisition choices,sPokemonMansion1F_FireRed:land_mons;sPokemonMansion1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+21,SPEAROW,SPEAROW,,Route 22 grass,Opening routes,None,sMtEmberExterior_FireRed:land_mons;sMtEmberExterior_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+22,FEAROW,FEAROW,SPEAROW,Evolve SPEAROW at level 20,Acquire parent; reach level 20,Inherits parent acquisition choices,sMtEmberExterior_FireRed:land_mons;sMtEmberExterior_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+23,EKANS,EKANS,,Route 4 grass,After Mt Moon,None,sRoute4_FireRed:land_mons,PENDING: acquisition path not certified,NOT RUN
+24,ARBOK,ARBOK,EKANS,Evolve EKANS at level 22,Acquire parent; reach level 22,Inherits parent acquisition choices,sVictoryRoad1F_FireRed:land_mons,PENDING: acquisition path not certified,NOT RUN
+25,PIKACHU,PIKACHU,,Viridian Forest grass,Before Brock,None,sViridianForest_FireRed:land_mons;sViridianForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+26,RAICHU,RAICHU,PIKACHU,Evolve PIKACHU with THUNDER_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+27,SANDSHREW,SANDSHREW,,Route 4 grass; add LeafGreen habitat,After Mt Moon,None,sRoute4_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+28,SANDSLASH,SANDSLASH,SANDSHREW,Evolve SANDSHREW at level 22,Acquire parent; reach level 22,Inherits parent acquisition choices,sVictoryRoad1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+29,NIDORAN_F,NIDORAN♀,,Route 3 grass,After Brock,None,sSafariZoneEast_FireRed:land_mons;sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+30,NIDORINA,NIDORINA,NIDORAN_F,Evolve NIDORAN_F at level 16,Acquire parent; reach level 16,Inherits parent acquisition choices,sSafariZoneCenter_FireRed:land_mons;sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+31,NIDOQUEEN,NIDOQUEEN,NIDORINA,Evolve NIDORINA with MOON_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+32,NIDORAN_M,NIDORAN♂,,Route 3 grass,After Brock,None,sSafariZoneCenter_FireRed:land_mons;sSafariZoneEast_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+33,NIDORINO,NIDORINO,NIDORAN_M,Evolve NIDORAN_M at level 16,Acquire parent; reach level 16,Inherits parent acquisition choices,sSafariZoneCenter_FireRed:land_mons;sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+34,NIDOKING,NIDOKING,NIDORINO,Evolve NIDORINO with MOON_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+35,CLEFAIRY,CLEFAIRY,,Mt Moon caves,After Brock,None,sMtMoon1F_FireRed:land_mons;sMtMoon1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+36,CLEFABLE,CLEFABLE,CLEFAIRY,Evolve CLEFAIRY with MOON_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+37,VULPIX,VULPIX,,Route 7 grass; add LeafGreen habitat,Reach Celadon,None,sPokemonMansion1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+38,NINETALES,NINETALES,VULPIX,Evolve VULPIX with FIRE_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+39,JIGGLYPUFF,JIGGLYPUFF,,Route 3 grass,After Brock,None,sRoute3_FireRed:land_mons;sRoute3_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+40,WIGGLYTUFF,WIGGLYTUFF,JIGGLYPUFF,Evolve JIGGLYPUFF with MOON_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+41,ZUBAT,ZUBAT,,Mt Moon caves,After Brock,None,sMtMoon1F_FireRed:land_mons;sMtMoon1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+42,GOLBAT,GOLBAT,ZUBAT,Evolve ZUBAT at level 22,Acquire parent; reach level 22,Inherits parent acquisition choices,sVictoryRoad1F_FireRed:land_mons;sVictoryRoad1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+43,ODDISH,ODDISH,,Route 24 grass,Reach Cerulean,None,sThreeIslandBerryForest_FireRed:land_mons,PENDING: acquisition path not certified,NOT RUN
+44,GLOOM,GLOOM,ODDISH,Evolve ODDISH at level 21,Acquire parent; reach level 21,Inherits parent acquisition choices,sThreeIslandBerryForest_FireRed:land_mons,PENDING: acquisition path not certified,NOT RUN
+45,VILEPLUME,VILEPLUME,GLOOM,Evolve GLOOM with LEAF_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+46,PARAS,PARAS,,Mt Moon caves,After Brock,None,sMtMoon1F_FireRed:land_mons;sMtMoon1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+47,PARASECT,PARASECT,PARAS,Evolve PARAS at level 24,Acquire parent; reach level 24,Inherits parent acquisition choices,sSafariZoneCenter_FireRed:land_mons;sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+48,VENONAT,VENONAT,,Route 14 grass,Reach Fuchsia routes,None,sSafariZoneCenter_FireRed:land_mons;sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+49,VENOMOTH,VENOMOTH,VENONAT,Evolve VENONAT at level 31,Acquire parent; reach level 31,Inherits parent acquisition choices,sSafariZoneNorth_FireRed:land_mons;sSafariZoneNorth_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+50,DIGLETT,DIGLETT,,Digletts Cave,Reach Vermilion,None,sDiglettsCaveB1F_FireRed:land_mons;sDiglettsCaveB1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+51,DUGTRIO,DUGTRIO,DIGLETT,Evolve DIGLETT at level 26,Acquire parent; reach level 26,Inherits parent acquisition choices,sDiglettsCaveB1F_FireRed:land_mons;sDiglettsCaveB1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+52,MEOWTH,MEOWTH,,Route 5 grass,After Cerulean bridge/Bill progression,None,sOneIslandKindleRoad_FireRed:land_mons;sOneIslandKindleRoad_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+53,PERSIAN,PERSIAN,MEOWTH,Evolve MEOWTH at level 28,Acquire parent; reach level 28,Inherits parent acquisition choices,sOneIslandKindleRoad_FireRed:land_mons;sOneIslandKindleRoad_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+54,PSYDUCK,PSYDUCK,,Route 6 water,Surf access,None,sSSAnneExterior_FireRed:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+55,GOLDUCK,GOLDUCK,PSYDUCK,Evolve PSYDUCK at level 33,Acquire parent; reach level 33,Inherits parent acquisition choices,sCeruleanCave1F_FireRed:water_mons,PENDING: acquisition path not certified,NOT RUN
+56,MANKEY,MANKEY,,Route 22 grass,Opening routes,None,sRockTunnel1F_FireRed:land_mons;sRockTunnel1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+57,PRIMEAPE,PRIMEAPE,MANKEY,Evolve MANKEY at level 28,Acquire parent; reach level 28,Inherits parent acquisition choices,sVictoryRoad2F_FireRed:land_mons;sVictoryRoad2F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+58,GROWLITHE,GROWLITHE,,Route 7 grass,Reach Celadon,None,sPokemonMansion1F_FireRed:land_mons,PENDING: acquisition path not certified,NOT RUN
+59,ARCANINE,ARCANINE,GROWLITHE,Evolve GROWLITHE with FIRE_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+60,POLIWAG,POLIWAG,,Pallet Town fishing,Super Rod and return to Pallet,None,sSafariZoneCenter_FireRed:fishing_mons;sSafariZoneCenter_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+61,POLIWHIRL,POLIWHIRL,POLIWAG,Evolve POLIWAG at level 25,Acquire parent; reach level 25,Inherits parent acquisition choices,sCeruleanCave1F_FireRed:fishing_mons;sCeruleanCave1F_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+62,POLIWRATH,POLIWRATH,POLIWHIRL,Evolve POLIWHIRL with WATER_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+63,ABRA,ABRA,,Route 24 grass,Reach Cerulean,None,sRoute24_FireRed:land_mons;sRoute24_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+64,KADABRA,KADABRA,ABRA,Evolve ABRA at level 16,Acquire parent; reach level 16,Inherits parent acquisition choices,sCeruleanCave2F_FireRed:land_mons;sCeruleanCave2F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+65,ALAKAZAM,ALAKAZAM,KADABRA,Proposed: evolve KADABRA at level 37 instead of trading,Acquire parent; reach level 37,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+66,MACHOP,MACHOP,,Rock Tunnel,After Cut; Flash recommended,None,sVictoryRoad1F_FireRed:land_mons;sVictoryRoad1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+67,MACHOKE,MACHOKE,MACHOP,Evolve MACHOP at level 28,Acquire parent; reach level 28,Inherits parent acquisition choices,sVictoryRoad1F_FireRed:land_mons;sVictoryRoad1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+68,MACHAMP,MACHAMP,MACHOKE,Proposed: evolve MACHOKE at level 37 instead of trading,Acquire parent; reach level 37,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+69,BELLSPROUT,BELLSPROUT,,Route 24 grass; add LeafGreen habitat,Reach Cerulean,None,sThreeIslandBerryForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+70,WEEPINBELL,WEEPINBELL,BELLSPROUT,Evolve BELLSPROUT at level 21,Acquire parent; reach level 21,Inherits parent acquisition choices,sThreeIslandBerryForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+71,VICTREEBEL,VICTREEBEL,WEEPINBELL,Evolve WEEPINBELL with LEAF_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+72,TENTACOOL,TENTACOOL,,Route 21 water,Surf access,None,sSSAnneExterior_FireRed:water_mons;sSSAnneExterior_LeafGreen:water_mons,PENDING: acquisition path not certified,NOT RUN
+73,TENTACRUEL,TENTACRUEL,TENTACOOL,Evolve TENTACOOL at level 30,Acquire parent; reach level 30,Inherits parent acquisition choices,sFourIslandIcefallCaveBack_FireRed:water_mons;sFourIslandIcefallCaveBack_LeafGreen:water_mons,PENDING: acquisition path not certified,NOT RUN
+74,GEODUDE,GEODUDE,,Mt Moon caves,After Brock,None,sMtMoon1F_FireRed:land_mons;sMtMoon1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+75,GRAVELER,GRAVELER,GEODUDE,Evolve GEODUDE at level 25,Acquire parent; reach level 25,Inherits parent acquisition choices,sCeruleanCave1F_FireRed:rock_smash_mons;sCeruleanCave1F_LeafGreen:rock_smash_mons,PENDING: acquisition path not certified,NOT RUN
+76,GOLEM,GOLEM,GRAVELER,Proposed: evolve GRAVELER at level 37 instead of trading,Acquire parent; reach level 37,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+77,PONYTA,PONYTA,,One Island Kindle Road,First Sevii visit after Blaine,None,sMtEmberExterior_FireRed:land_mons;sMtEmberExterior_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+78,RAPIDASH,RAPIDASH,PONYTA,Evolve PONYTA at level 40,Acquire parent; reach level 40,Inherits parent acquisition choices,sMtEmberExterior_FireRed:land_mons;sMtEmberExterior_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+79,SLOWPOKE,SLOWPOKE,,Safari Zone water; add LeafGreen habitat,Safari entry and Surf,None,sSSAnneExterior_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+80,SLOWBRO,SLOWBRO,SLOWPOKE,Evolve SLOWPOKE at level 37,Acquire parent; reach level 37,Inherits parent acquisition choices,sCeruleanCave1F_LeafGreen:water_mons,PENDING: acquisition path not certified,NOT RUN
+81,MAGNEMITE,MAGNEMITE,,Power Plant,Surf access,None,sPowerPlant_FireRed:land_mons;sPowerPlant_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+82,MAGNETON,MAGNETON,MAGNEMITE,Evolve MAGNEMITE at level 30,Acquire parent; reach level 30,Inherits parent acquisition choices,sCeruleanCave1F_FireRed:land_mons;sCeruleanCave1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+83,FARFETCHD,FARFETCH'D,,Vermilion in-game Spearow exchange,Reach Vermilion and catch Spearow,NPC trade only; no link cartridge,,PENDING: acquisition path not certified,NOT RUN
+84,DODUO,DODUO,,Route 16 grass,Reach Celadon and Cut,None,sSafariZoneEast_FireRed:land_mons;sSafariZoneEast_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+85,DODRIO,DODRIO,DODUO,Evolve DODUO at level 31,Acquire parent; reach level 31,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+86,SEEL,SEEL,,Seafoam Islands,Surf access,None,sSeafoamIslandsB1F_FireRed:land_mons;sSeafoamIslandsB1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+87,DEWGONG,DEWGONG,SEEL,Evolve SEEL at level 34,Acquire parent; reach level 34,Inherits parent acquisition choices,sSeafoamIslandsB3F_FireRed:land_mons;sSeafoamIslandsB3F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+88,GRIMER,GRIMER,,Pokemon Mansion,Reach Cinnabar with Surf,None,sPokemonMansion1F_FireRed:land_mons;sPokemonMansion1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+89,MUK,MUK,GRIMER,Evolve GRIMER at level 38,Acquire parent; reach level 38,Inherits parent acquisition choices,sPokemonMansion1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+90,SHELLDER,SHELLDER,,Pallet Town fishing,Super Rod and return to Pallet,None,sSSAnneExterior_FireRed:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+91,CLOYSTER,CLOYSTER,SHELLDER,Evolve SHELLDER with WATER_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+92,GASTLY,GASTLY,,Pokemon Tower,Silph Scope,None,sPokemonTower3F_FireRed:land_mons;sPokemonTower3F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+93,HAUNTER,HAUNTER,GASTLY,Evolve GASTLY at level 25,Acquire parent; reach level 25,Inherits parent acquisition choices,sPokemonTower3F_FireRed:land_mons;sPokemonTower3F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+94,GENGAR,GENGAR,HAUNTER,Proposed: evolve HAUNTER at level 37 instead of trading,Acquire parent; reach level 37,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+95,ONIX,ONIX,,Rock Tunnel,After Cut; Flash recommended,None,sVictoryRoad1F_FireRed:land_mons;sVictoryRoad1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+96,DROWZEE,DROWZEE,,Route 11 grass,Reach Vermilion,None,sThreeIslandBerryForest_FireRed:land_mons;sThreeIslandBerryForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+97,HYPNO,HYPNO,DROWZEE,Evolve DROWZEE at level 26,Acquire parent; reach level 26,Inherits parent acquisition choices,sThreeIslandBerryForest_FireRed:land_mons;sThreeIslandBerryForest_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+98,KRABBY,KRABBY,,Vermilion fishing,Good Rod,None,sSSAnneExterior_FireRed:fishing_mons;sSSAnneExterior_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+99,KINGLER,KINGLER,KRABBY,Evolve KRABBY at level 28,Acquire parent; reach level 28,Inherits parent acquisition choices,sFourIslandIcefallCaveBack_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+100,VOLTORB,VOLTORB,,Route 10 grass,After Cut,None,sPowerPlant_FireRed:land_mons;sPowerPlant_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+101,ELECTRODE,ELECTRODE,VOLTORB,Evolve VOLTORB at level 30,Acquire parent; reach level 30,Inherits parent acquisition choices,sCeruleanCave1F_FireRed:land_mons;sCeruleanCave1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+102,EXEGGCUTE,EXEGGCUTE,,Safari Zone grass,Safari entry,None,sSafariZoneCenter_FireRed:land_mons;sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+103,EXEGGUTOR,EXEGGUTOR,EXEGGCUTE,Evolve EXEGGCUTE with LEAF_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+104,CUBONE,CUBONE,,Pokemon Tower,Silph Scope,None,sPokemonTower3F_FireRed:land_mons;sPokemonTower3F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+105,MAROWAK,MAROWAK,CUBONE,Evolve CUBONE at level 28,Acquire parent; reach level 28,Inherits parent acquisition choices,sVictoryRoad1F_FireRed:land_mons;sVictoryRoad1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+106,HITMONLEE,HITMONLEE,,Saffron Dojo first reward or postgame rematch missing reward,Defeat Dojo; missing reward after Champion,Dojo choice; alternate reward pending,,PENDING: acquisition path not certified,NOT RUN
+107,HITMONCHAN,HITMONCHAN,,Saffron Dojo first reward or postgame rematch missing reward,Defeat Dojo; missing reward after Champion,Dojo choice; alternate reward pending,,PENDING: acquisition path not certified,NOT RUN
+108,LICKITUNG,LICKITUNG,,Route 18 in-game Golduck exchange,Catch/evolve Psyduck; reach Route 18,NPC trade only; no link cartridge,,PENDING: acquisition path not certified,NOT RUN
+109,KOFFING,KOFFING,,Pokemon Mansion,Reach Cinnabar with Surf,None,sPokemonMansion1F_FireRed:land_mons;sPokemonMansion1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+110,WEEZING,WEEZING,KOFFING,Evolve KOFFING at level 35,Acquire parent; reach level 35,Inherits parent acquisition choices,sPokemonMansion1F_FireRed:land_mons,PENDING: acquisition path not certified,NOT RUN
+111,RHYHORN,RHYHORN,,Safari Zone grass,Safari entry,None,sSafariZoneCenter_FireRed:land_mons;sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+112,RHYDON,RHYDON,RHYHORN,Evolve RHYHORN at level 42,Acquire parent; reach level 42,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+113,CHANSEY,CHANSEY,,Safari Zone grass,Safari entry,None,sSafariZoneCenter_FireRed:land_mons;sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+114,TANGELA,TANGELA,,Route 21 grass,Surf access to south Pallet,None,sOneIslandTreasureBeach_FireRed:land_mons;sOneIslandTreasureBeach_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+115,KANGASKHAN,KANGASKHAN,,Safari Zone grass,Safari entry,None,sSafariZoneEast_FireRed:land_mons;sSafariZoneEast_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+116,HORSEA,HORSEA,,Vermilion fishing,Super Rod,None,sSSAnneExterior_FireRed:fishing_mons;sSSAnneExterior_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+117,SEADRA,SEADRA,HORSEA,Evolve HORSEA at level 32,Acquire parent; reach level 32,Inherits parent acquisition choices,sFourIslandIcefallCaveBack_FireRed:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+118,GOLDEEN,GOLDEEN,,Safari Zone fishing,Good Rod and Safari entry,None,sSafariZoneCenter_FireRed:fishing_mons;sSafariZoneCenter_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+119,SEAKING,SEAKING,GOLDEEN,Evolve GOLDEEN at level 33,Acquire parent; reach level 33,Inherits parent acquisition choices,sSafariZoneCenter_FireRed:fishing_mons;sSafariZoneCenter_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+120,STARYU,STARYU,,Pallet Town fishing; add LeafGreen habitat,Super Rod and return to Pallet,None,sSSAnneExterior_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+121,STARMIE,STARMIE,STARYU,Evolve STARYU with WATER_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+122,MR_MIME,MR. MIME,,Route 2 in-game Abra exchange,Catch Abra; access Route 2 trade house with Cut,NPC trade only; no link cartridge,,PENDING: acquisition path not certified,NOT RUN
+123,SCYTHER,SCYTHER,,Safari Zone grass,Safari entry,None,sSafariZoneCenter_FireRed:land_mons,PENDING: acquisition path not certified,NOT RUN
+124,JYNX,JYNX,,Cerulean in-game Poliwhirl exchange,Catch/evolve Poliwag; reach trade house,NPC trade only; no link cartridge,,PENDING: acquisition path not certified,NOT RUN
+125,ELECTABUZZ,ELECTABUZZ,,Power Plant,Surf access,None,sPowerPlant_FireRed:land_mons,PENDING: acquisition path not certified,NOT RUN
+126,MAGMAR,MAGMAR,,Mt Ember; add LeafGreen habitat,First Sevii visit after Blaine,None,sMtEmberExterior_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+127,PINSIR,PINSIR,,Safari Zone grass; add LeafGreen habitat,Safari entry,None,sSafariZoneCenter_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+128,TAUROS,TAUROS,,Safari Zone grass,Safari entry,None,sSafariZoneNorth_FireRed:land_mons;sSafariZoneNorth_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+129,MAGIKARP,MAGIKARP,,Route 4 purchase or Old Rod fishing,After Brock or Old Rod,None,sSSAnneExterior_FireRed:fishing_mons;sSSAnneExterior_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+130,GYARADOS,GYARADOS,MAGIKARP,Evolve MAGIKARP at level 20,Acquire parent; reach level 20,Inherits parent acquisition choices,sSSAnneExterior_FireRed:fishing_mons;sSSAnneExterior_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+131,LAPRAS,LAPRAS,,Silph Co gift,Rocket occupation of Silph Co; reach gift NPC,Once-only gift; full party/PC safe handling required,sFourIslandIcefallCaveBack_FireRed:water_mons;sFourIslandIcefallCaveBack_LeafGreen:water_mons,PENDING: acquisition path not certified,NOT RUN
+132,DITTO,DITTO,,Route 13 grass,Reach Fuchsia routes,None,sPokemonMansionB1F_FireRed:land_mons;sPokemonMansionB1F_LeafGreen:land_mons,PENDING: acquisition path not certified,NOT RUN
+133,EEVEE,EEVEE,,Celadon rooftop gift plus two postgame breeder gifts,Reach Celadon; extra copies after Champion,Single initial gift; two additional gifts pending,,PENDING: acquisition path not certified,NOT RUN
+134,VAPOREON,VAPOREON,EEVEE,Evolve EEVEE with WATER_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+135,JOLTEON,JOLTEON,EEVEE,Evolve EEVEE with THUNDER_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+136,FLAREON,FLAREON,EEVEE,Evolve EEVEE with FIRE_STONE,Acquire parent; obtain evolution stone; audit finite supply,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+137,PORYGON,PORYGON,,Celadon Game Corner prize,Reach Celadon; earn required coins,None,,PENDING: acquisition path not certified,NOT RUN
+138,OMANYTE,OMANYTE,,Dome/Helix choice: revive Helix Fossil plus missing-fossil quest,Cinnabar revival; unchosen fossil after Champion,Fossil choice; alternative quest pending,,PENDING: acquisition path not certified,NOT RUN
+139,OMASTAR,OMASTAR,OMANYTE,Evolve OMANYTE at level 40,Acquire parent; reach level 40,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+140,KABUTO,KABUTO,,Dome/Helix choice: revive Dome Fossil plus missing-fossil quest,Cinnabar revival; unchosen fossil after Champion,Fossil choice; alternative quest pending,,PENDING: acquisition path not certified,NOT RUN
+141,KABUTOPS,KABUTOPS,KABUTO,Evolve KABUTO at level 40,Acquire parent; reach level 40,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+142,AERODACTYL,AERODACTYL,,Revive Old Amber from Pewter museum,Cut for Amber; Cinnabar revival,None,,PENDING: acquisition path not certified,NOT RUN
+143,SNORLAX,SNORLAX,,Route 12 or Route 16 static encounter,Poke Flute,Finite encounters; recovery/rematch pending,,PENDING: acquisition path not certified,NOT RUN
+144,ARTICUNO,ARTICUNO,,Seafoam Islands static encounter,Surf and Strength puzzles,Unique encounter; recovery/rematch pending,,PENDING: acquisition path not certified,NOT RUN
+145,ZAPDOS,ZAPDOS,,Power Plant static encounter,Surf access,Unique encounter; recovery/rematch pending,,PENDING: acquisition path not certified,NOT RUN
+146,MOLTRES,MOLTRES,,Mt Ember static encounter,First Sevii visit; Surf and Strength,Unique encounter; recovery/rematch pending,,PENDING: acquisition path not certified,NOT RUN
+147,DRATINI,DRATINI,,Safari Zone fishing or Celadon prize,Super Rod/Safari entry or enough Game Corner coins,None,sSafariZoneCenter_FireRed:fishing_mons;sSafariZoneCenter_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+148,DRAGONAIR,DRAGONAIR,DRATINI,Evolve DRATINI at level 30,Acquire parent; reach level 30,Inherits parent acquisition choices,sSafariZoneCenter_FireRed:fishing_mons;sSafariZoneCenter_LeafGreen:fishing_mons,PENDING: acquisition path not certified,NOT RUN
+149,DRAGONITE,DRAGONITE,DRAGONAIR,Evolve DRAGONAIR at level 55,Acquire parent; reach level 55,Inherits parent acquisition choices,,PENDING: acquisition path not certified,NOT RUN
+150,MEWTWO,MEWTWO,,Cerulean Cave static encounter,Champion and existing Sevii/National Dex cave gates,Unique encounter; recovery/rematch pending,,PENDING: acquisition path not certified,NOT RUN
+151,MEW,MEW,,New postgame research quest encounter,Champion; National Dex; Sevii Rocket/Ruby/Sapphire story complete,No event distribution; quest and rematch pending,,PENDING: acquisition path not certified,NOT RUN
